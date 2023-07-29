@@ -621,12 +621,12 @@ nav .nav-links a:hover{
     
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 400px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .yellow_info h1{
-        font-size: 5.5rem;
+        font-size: 3.5rem;
     }
 
     .products .box-container .box .image img{
