@@ -613,15 +613,18 @@ nav .nav-links a:hover{
 
     .nav_down li{
         list-style: none;
-        margin-right: 10px;
+        margin-right: 5px;
         margin-left: 10px;
         padding-top: 20px;
+    }   
+    
+}
+
+@media screen and (max-width: 350px){
+    body{
+        overflow: hidden;
     }
 
-   
-
-    
-    
 }
 
 
