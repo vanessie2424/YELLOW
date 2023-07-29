@@ -98,7 +98,7 @@ nav .nav-links a:hover{
 }
 
 .yellow_info h1{
-    font-size: 80px;
+    font-size: 8rem;
     margin: 20px 0;
     color: var(--VeryLightGray);
 }
@@ -252,6 +252,7 @@ nav .nav-links a:hover{
 
 .products .box-container .box .image img{
     height: 30rem;
+    width: 30rem;
 }
 
 .products .box-container .box:hover .image img{
@@ -623,6 +624,17 @@ nav .nav-links a:hover{
 @media screen and (max-width: 350px){
     body{
         overflow: hidden;
+    }
+    .yellow_info h1{
+        font-size: 5.5rem;
+    }
+
+    .products .box-container .box .image img{
+        height: 30rem;
+    }
+    .products .box-container .box .image img{
+        height: 30rem;
+        width: 20rem;
     }
 
 }
