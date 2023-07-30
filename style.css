@@ -426,6 +426,8 @@ nav .nav-links a:hover{
 
 .contact .row form .btn{
     padding: 10px;
+    width: 200px;
+    height: 40px;
 }
 
 .footer{
@@ -534,7 +536,7 @@ form input{
     border: 1px solid #666;
 }
 
-form .btn{
+.account-page .form-container form .btn{
     width: 100%;
     border: none;
     cursor: pointer;
@@ -713,7 +715,7 @@ form a{
         width: 20rem;
     }
     .form-container{
-        margin: 0 2rem ; 
+        margin: 0 2.3rem ; 
         width: 300px;
     }
 
