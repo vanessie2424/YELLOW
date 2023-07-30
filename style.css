@@ -484,9 +484,82 @@ nav .nav-links a:hover{
     color: #333;
 }
 
+.account-page{
+    display: flex;
+    background-image: url(./images/avatar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.form-container{
+    background: #fff;
+    margin: 0 60rem ; 
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    overflow: hidden;
 
 
+}
+.form-container span{
+    font-weight: bold;
+    font-size: 2rem;
+    padding:  10px;
+    color: #333;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
 
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #666;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 13px;
+    color: #333;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: var(--yellow);
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
 
 
 
@@ -617,6 +690,9 @@ nav .nav-links a:hover{
         margin-right: 5px;
         margin-left: 10px;
         padding-top: 20px;
+    }
+    .form-container{
+        margin: 0 20rem ; 
     }   
     
 }
@@ -635,6 +711,10 @@ nav .nav-links a:hover{
     .products .box-container .box .image img{
         height: 30rem;
         width: 20rem;
+    }
+    .form-container{
+        margin: 0 1.5rem ; 
+        width: 280px;
     }
 
 }
